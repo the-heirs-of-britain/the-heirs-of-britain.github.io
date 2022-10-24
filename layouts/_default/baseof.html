@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}" x-data="{darkMode: false}"
+    x-init="darkMode = JSON.parse(localStorage.getItem('darkMode')); $watch('darkMode', value => JSON.stringify(localStorage.setItem('darkMode', value)))"
+    :class="{'dark': darkMode === true}">
+{{- partial "head.html" . -}}
+
+<body>
+    <div
+        class="grid h-screen grid-areas-mobile grid-rows-layout lg:grid-areas-desktop grid-cols-layout">
+        {{ partial "header.html" .}}
+
+    </div>
+</body>
+
+</html>
