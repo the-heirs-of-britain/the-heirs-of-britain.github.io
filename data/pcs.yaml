@@ -1,9 +1,6 @@
 - name: "Elvorix the Roman"
-  father: "Vandevig of Ganis"
+  father: "Taurinus of the Saxon Shore"
   played_by: "C1"
-  img:
-    path: "/img/elvorix.png"
-    alt: "alt text"
   description: |
     A well-spoken man, of a height with Vandagild, described for his Roman nose and charming accent. He is famously Forgiving, Just and Temperate. He is passionately dedicated to his Lord and, like all good men, despises Saxons. He has a good knowledge of Law, court, heraldry, and the ways of folk.
     Like many Knights, he is famed for his Valor and is a skilled young warrior.
@@ -11,3 +8,22 @@
   words: 
     latin: "Male Parta Male Dilabuntur" 
     english: "What has been wrongly gained is wrongly lost."
+
+- name: "Vandagild the Aquitainian"
+  father: "Vandevig of Ganis"
+  played_by: "C2"
+  description: |
+    A tall man of great constitution, with gallic features and a scarred left brow; a bear claw on a youthful hunt. His sense of Justice drives him, and he is famously Vengeful but Merciful. His hatred of Saxons and Vandals, for their marauding ways, are well-known. He is renowned as a hunter and horseman. His powerful oratory makes him a popular speaker and storyteller. From his neck hangs a Roman medallion, awarded to his grandfather, Sir Vandius, by the Holy Emperor Avitus in 456.
+    Like many Knights, he is famed for his Valor and is a skilled young warrior.
+    His father earned his lands in Salisbury as a mercenary, joining the now High King Aurelius in his March from Aquitaine to retake his rightful throne of Logres and Britain. For his valorous service, Vandevig was granted the manor of Winterborne Gunner. Vandagild will inherit these lands. 
+  words: 
+    latin: "Iustitia Virtus Misericordia"
+    english: "Justice, Valor, and Mercy"
+
+- name: "Iwan the Cymrian"
+  father: "Rufus of Salisbury"
+  played_by: "Trent"
+  description: |
+    Famously handsome, Iwan’s wavy blonde hair and broad shoulders draw favourable comment. Though famously Modest, his Generosity and Justice are known across the court. He is fanatically Loyal to his liege, and is known for holding Honor and Hospitality in the highest regard. He still seethes at the betrayer Vortigern, the tyrant and usurper who gave Saxons land in Britain. He is popular in court, an excellent dancer being both well-spoken in polite and joyous conversation; though his modesty keeps his words few, many listen when he speaks. He rides a remarkably obedient charger.
+    Like many Knights, he is famed for his Valor and is a skilled young warrior.
+    Of good Salisbury stock, Iwan is lord of Pitton manor.
