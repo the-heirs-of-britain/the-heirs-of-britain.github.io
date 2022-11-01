@@ -9,14 +9,14 @@
         class="grid h-screen grid-areas-mobile grid-rows-layout lg:grid-areas-desktop grid-cols-layout">
         {{ partial "header.html" .}}
         {{ partial "sidebar/fixed" . }}
-        <main class="max-w-none overflow-y-scroll grid-in-main bg-manuscript-white p-3">
-            <article class="max-w-none prose prose-sm lg:prose-base prose-stone">
-                {{block "main" .}}{{end}}
+        <main class="px-3 pt-3 overflow-y-scroll grid-in-main prose !max-w-none prose-stone bg-manuscript-white">
+            <article class="prose-sm lg:prose-base">
+
+        {{ block "main" .}}{{end}}      
+
             </article>
         </main>
-        <footer class="grid-in-footer bg-green-300">
-            The Footer
-        </footer>
+       {{ partial "footer.html" .}} 
     </div>
 </body>
 

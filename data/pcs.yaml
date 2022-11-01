@@ -1,0 +1,13 @@
+- name: "Elvorix the Roman"
+  father: "Vandevig of Ganis"
+  played_by: "C1"
+  img:
+    path: "/img/elvorix.png"
+    alt: "alt text"
+  description: |
+    A well-spoken man, of a height with Vandagild, described for his Roman nose and charming accent. He is famously Forgiving, Just and Temperate. He is passionately dedicated to his Lord and, like all good men, despises Saxons. He has a good knowledge of Law, court, heraldry, and the ways of folk.
+    Like many Knights, he is famed for his Valor and is a skilled young warrior.
+    He hails from the city of Norwich, and is lord of Shrewton manor.
+  words: 
+    latin: "Male Parta Male Dilabuntur" 
+    english: "What has been wrongly gained is wrongly lost."

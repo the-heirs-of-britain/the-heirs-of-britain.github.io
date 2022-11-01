@@ -2,7 +2,17 @@ baseURL: http://example.org/
 languageCode: en-us
 title: The Heirs of Britain
 
+
+markup: ## needed for html in your markdown
+  goldmark:
+    renderer:
+      unsafe: true
+
 menus:
   main:
     - name: Home
       url: "/"
+
+
+build:
+  writeStats: true
