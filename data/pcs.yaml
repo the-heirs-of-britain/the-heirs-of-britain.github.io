@@ -1,6 +1,9 @@
 - name: "Elvorix the Roman"
   father: "Taurinus of the Saxon Shore"
   played_by: "C1"
+  img:
+    path: "/img/elvorix_coa.png"
+    alt: "Elvorix's heraldry."
   description: |
     A well-spoken man, of a height with Vandagild, described for his Roman nose and charming accent. He is famously Forgiving, Just and Temperate. He is passionately dedicated to his Lord and, like all good men, despises Saxons. He has a good knowledge of Law, court, heraldry, and the ways of folk.
     Like many Knights, he is famed for his Valor and is a skilled young warrior.
@@ -11,6 +14,9 @@
 
 - name: "Vandagild the Aquitainian"
   father: "Vandevig of Ganis"
+  img:
+    path: "/img/vandagild_coa.png"
+    alt: "Elvorix's heraldry."
   played_by: "C2"
   description: |
     A tall man of great constitution, with gallic features and a scarred left brow; a bear claw on a youthful hunt. His sense of Justice drives him, and he is famously Vengeful but Merciful. His hatred of Saxons and Vandals, for their marauding ways, are well-known. He is renowned as a hunter and horseman. His powerful oratory makes him a popular speaker and storyteller. From his neck hangs a Roman medallion, awarded to his grandfather, Sir Vandius, by the Holy Emperor Avitus in 456.
@@ -23,6 +29,9 @@
 - name: "Iwan the Cymrian"
   father: "Rufus of Salisbury"
   played_by: "Trent"
+  img:
+    path: "/img/iwan_coa.png"
+    alt: "Elvorix's heraldry."
   description: |
     Famously handsome, Iwan’s wavy blonde hair and broad shoulders draw favourable comment. Though famously Modest, his Generosity and Justice are known across the court. He is fanatically Loyal to his liege, and is known for holding Honor and Hospitality in the highest regard. He still seethes at the betrayer Vortigern, the tyrant and usurper who gave Saxons land in Britain. He is popular in court, an excellent dancer being both well-spoken in polite and joyous conversation; though his modesty keeps his words few, many listen when he speaks. He rides a remarkably obedient charger.
     Like many Knights, he is famed for his Valor and is a skilled young warrior.
