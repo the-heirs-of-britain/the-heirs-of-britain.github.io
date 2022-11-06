@@ -1,0 +1,10 @@
+{{ $img := resources.Get .img.path}}
+<div class="prose-sm border border-red-300 md:flex not-prose">
+    <p class="mb-1 text-xl font-bold text-center text-stone-900 md:hidden">{{.name}}</p>
+    <img src="{{$img.Permalink}}" alt="{{.img.alt}}" class="object-contain w-full my-0 md:w-48 lg:w-1/3">
+    <div class="mt-1 ml-3 prose-sm lg:prose-base lg:mt-0">
+        <p class="hidden text-xl font-bold lg:text-2xl text-stone-900 md:block">{{.name}}, son of {{.father}}</p>
+        <p class="italic">Played by {{.played_by}}</p>
+        <p>{{.description}}</p>
+    </div>
+</div>
