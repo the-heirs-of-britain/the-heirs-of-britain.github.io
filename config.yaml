@@ -16,3 +16,6 @@ menus:
 
 build:
   writeStats: true
+
+permalinks:
+  sessions: "/:year/:month/:day/:slug"

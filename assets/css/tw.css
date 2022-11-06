@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@layer base {
+     body {
+        @apply min-h-screen antialiased scrollbar-thin;
+    }
+}
