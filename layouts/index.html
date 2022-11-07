@@ -1,10 +1,9 @@
-{{ define "main"}}
-<h1>{{.Site.Title}}</h1>
-{{ range $.Site.Data.pcs }}
-{{ $img := resources.Get .img.path }}
-<div class="bg-green-200 rounded shadow-md overflow-hidden md:flex not-prose">
+{{ define "main" }}
+  <h1>{{ .Site.Title }}</h1>
+  <div class="space-y-2 lg:space-y-3">
+    {{ range $.Site.Data.pcs }}
+      {{ partial "index/pc" . }}
+    {{ end }}
 
-
-</div>
-{{ end }}
+  </div>
 {{ end }}
