@@ -2,7 +2,7 @@
 title: "Game One"
 date: 2022-04-29
 draft: true
-year_played: 479 AD
+year_played: 479
 weight: 1
 ---
 
