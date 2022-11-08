@@ -2,7 +2,6 @@ baseURL: http://example.org/
 languageCode: en-us
 title: The Heirs of Britain
 
-
 markup: ## needed for html in your markdown
   goldmark:
     renderer:
@@ -13,9 +12,16 @@ menus:
     - name: Home
       url: "/"
 
-
 build:
   writeStats: true
 
 permalinks:
   sessions: "/:year/:month/:day/:slug"
+
+outputs:
+  home:
+    - html
+    - rss
+    - json
+  page:
+    - html
