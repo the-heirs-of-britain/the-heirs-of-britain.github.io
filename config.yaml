@@ -7,6 +7,12 @@ markup: ## needed for html in your markdown
     renderer:
       unsafe: true
 
+params:
+  description: "Lorem ipsum dolor sit amet."
+  socials:
+    - icon: "fas fa-rss"
+      url: "#"
+
 menus:
   main:
     - name: Home

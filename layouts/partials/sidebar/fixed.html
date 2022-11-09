@@ -1,16 +1,27 @@
-<aside class="flex-col items-center hidden bg-manuscript-tan grid-in-sidebar lg:flex">
-    <p class="p-2 font-semibold uppercase">{{if isset .Site.Params "title"}}{{.Site.Params.title}}{{else}}{{.Site.Title}}{{end}}</p>
-    <div class="mt-3 overflow-hidden rounded-full h-44 w-44 bg-blue-600">
-        <img src="{{.Site.Params.profilePic | relURL}}">
-    </div>
-    <p class="p-2 mx-auto mt-2 text-sm text-center text-gray-600 dark:text-gray-400 space-x-2.5">{{.Site.Params.description}}</p>
-    <div class="mt-2 flex space-x-2.5 text-xl p-3">
-        {{ range .Site.Params.socials }}
-        <a href="{{index . "url"}}" class="transition-colors text-2xl duration-75 hover:text-blue-400">
-            <i class='{{index . "icon"}}'></i>
-        </a>
-        {{ end  }}
-    </div>
-
-
+<aside
+  class="hidden flex-col items-center bg-manuscript-tan grid-in-sidebar lg:flex"
+>
+  <p class="p-2 font-semibold uppercase">
+    {{ if isset .Site.Params "title" }}
+      {{ .Site.Params.title }}
+    {{ else }}
+      {{ .Site.Title }}
+    {{ end }}
+  </p>
+  <div class="mt-3 h-44 w-44 overflow-hidden rounded-full bg-blue-600">
+    <img src="{{ .Site.Params.profilePic | relURL }}" />
+  </div>
+  <p class="mx-auto mt-2 space-x-2.5 p-2 text-center text-sm text-gray-600">
+    {{ .Site.Params.description }}
+  </p>
+  <div class="flex space-x-2.5 p-3 text-xl">
+    {{ range .Site.Params.socials }}
+      <a
+        href="{{ index . "url" }}"
+        class="text-xl transition-colors duration-75 hover:text-blue-400"
+      >
+        <i class="{{ index . "icon" }}"></i>
+      </a>
+    {{ end }}
+  </div>
 </aside>

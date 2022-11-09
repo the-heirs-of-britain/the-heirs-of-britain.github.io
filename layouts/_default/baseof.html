@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html lang="{{.Site.LanguageCode}}" x-data="{darkMode: false}"
-    x-init="darkMode = JSON.parse(localStorage.getItem('darkMode')); $watch('darkMode', value => JSON.stringify(localStorage.setItem('darkMode', value)))"
-    :class="{'dark': darkMode === true}">
-{{- partial "head.html" . -}}
+<html
+  lang="{{ .Site.LanguageCode }}"
+  x-data="{darkMode: false}"
+  x-init="darkMode = JSON.parse(localStorage.getItem('darkMode')); $watch('darkMode', value => JSON.stringify(localStorage.setItem('darkMode', value)))"
+  :class="{'dark': darkMode === true}"
+>
+  {{- partial "head.html" . -}}
 
-<body>
+
+  <body>
     <div
-        class="grid h-screen grid-areas-mobile grid-rows-layout lg:grid-areas-desktop grid-cols-layout">
-        {{ partial "header.html" .}}
-        {{ partial "sidebar/fixed" . }}
-        <main class="px-3 pt-3 overflow-y-scroll grid-in-main prose !max-w-none prose-stone bg-manuscript-white">
-            <article class="prose-sm lg:prose-base">
-
-        {{ block "main" .}}{{end}}      
-
-            </article>
-        </main>
-       {{ partial "footer.html" .}} 
+      class="grid h-screen grid-cols-layout grid-rows-layout grid-areas-mobile lg:grid-areas-desktop"
+    >
+      {{ partial "header.html" . }}
+      {{ partial "sidebar/fixed" . }}
+      {{ partial "sidebar/overlay" . }}
+      <main
+        class="prose prose-stone !max-w-none overflow-y-scroll bg-manuscript-white px-3 pt-3 grid-in-main"
+      >
+        <article class="prose-sm lg:prose-base">
+          {{ block "main" . }}{{ end }}
+        </article>
+      </main>
+      {{ partial "footer.html" . }}
     </div>
-</body>
-
+  </body>
 </html>
