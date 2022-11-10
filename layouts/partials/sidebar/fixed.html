@@ -14,6 +14,9 @@
   <p class="mx-auto mt-2 space-x-2.5 p-2 text-center text-sm text-gray-600">
     {{ .Site.Params.description }}
   </p>
+  <p class="mx-auto mt-1 space-x-2.5 p-2 text-center text-xs text-gray-600">
+    Toggle search with <kbd>CTRL-/</kbd>.
+  </p>
   <div class="flex space-x-2.5 p-3 text-xl">
     {{ range .Site.Params.socials }}
       <a
@@ -24,4 +27,8 @@
       </a>
     {{ end }}
   </div>
+
+  <p class="absolute bottom-0 mb-4 text-sm text-stone-500 ">
+    &copy;2021-2022 Trent B
+  </p>
 </aside>

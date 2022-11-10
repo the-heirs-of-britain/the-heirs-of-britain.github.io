@@ -17,7 +17,10 @@ menus:
   main:
     - name: Home
       url: "/"
-
+      weight: 1
+    - name: Sessions
+      url: "/sessions"
+      weight: 2
 build:
   writeStats: true
 
