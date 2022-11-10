@@ -10,6 +10,6 @@
 				{{- $.Scratch.Set "date" (.Date.Format "2006-01-02") -}}
 			{{- end -}}
 	{{ end }}
-    {{- $index = $index | append (dict "title" ( .Title | plainify ) "permalink" .Permalink "section" (i18n (.Section | title)) "summary" (.Params.summary | markdownify | htmlUnescape | plainify) "date" ($.Scratch.Get "date") "yearPlayed" (printf "%s AD" (.Params.year_played | markdownify | htmlUnescape | plainify)) ) -}}
+    {{- $index = $index | append (dict "title" ( .Title | plainify ) "permalink" .Permalink "section" (i18n (.Section | title)) "summary" (.Summary | markdownify | htmlUnescape | plainify) "date" (dateFormat "Jan 02, 2006" ($.Scratch.Get "date")) "yearPlayed" .Params.year_played  ) -}}
 {{- end -}}
 {{- $index | jsonify -}}
