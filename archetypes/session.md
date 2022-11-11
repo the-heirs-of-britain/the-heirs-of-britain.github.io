@@ -4,6 +4,5 @@ date: {{ .Date }}
 draft: true
 year_played:
 weight: 
+type: session
 ---
-
-

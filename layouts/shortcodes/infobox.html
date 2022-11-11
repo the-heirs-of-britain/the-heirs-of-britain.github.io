@@ -1,0 +1,25 @@
+<aside
+  role="infobox"
+  class="mx-auto w-max border border-gray-400 bg-gray-200 prose-figcaption:text-center md:float-right md:ml-7"
+>
+  <div
+    class="prose-figcaption:border-b-1 prose-sm prose-figure:mb-1 prose-figure:!mt-0 prose-figcaption:mb-1 prose-table:my-0 prose-table:h-full prose-thead:border-0 prose-tr:leading-tight prose-th:p-0 first:prose-td:pl-2 first:prose-td:font-bold"
+  >
+    {{ with .Get "title" }}
+      <header
+        class="w-full bg-blue-500 p-1 text-center text-lg font-bold text-white"
+      >
+        {{ . }}
+      </header>
+    {{ end }}
+    <figure>
+      <img
+        src="https://images.unsplash.com/photo-1632951634308-d7889939c125"
+        alt="{{ with .Get "caption" }}{{ . }}{{ end }}"
+        class="my-0 h-60 w-full object-contain"
+      />
+      <figcaption>{{ with .Get "caption" }}{{ . }}{{ end }}</figcaption>
+    </figure>
+    {{ .Inner | markdownify }}
+  </div>
+</aside>

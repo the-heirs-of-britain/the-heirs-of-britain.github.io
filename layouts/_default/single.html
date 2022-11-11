@@ -1,5 +1,9 @@
 {{ define "main" }}
-  <h1>{{ .Title }}: {{ .Params.year_played }} AD</h1>
+  {{ if eq .Type "session" }}
 
+    <h1>{{ .Title }}: {{ .Params.year_played }} AD</h1>
+  {{ else }}
+    <h1>{{ .Title }}</h1>
+  {{ end }}
   {{ .Content }}
 {{ end }}
