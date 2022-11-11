@@ -1,0 +1,19 @@
+<footer class="z-10 items-center bg-blue-200 text-gray-800 grid-in-footer">
+  <div class="flex h-[52px] items-center justify-between 2xl:h-[62px]">
+    <nav class="hidden h-full items-center space-x-3 lg:flex">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.footer }}
+        {{ $active := or (eq $currentPage.Title .Name) (or ($currentPage.HasMenuCurrent "main" .)
+          ($currentPage.IsMenuCurrent "main" .) (eq $currentPage.RelPermalink .URL))
+        }}
+        <a
+          href="{{ .URL }}"
+          class="{{ if $active }}
+            border-t-2 border-blue-600 dark:border-blue-400
+          {{ end }} block h-full p-3 transition duration-100 hover:bg-gray-400 dark:hover:bg-blue-600 2xl:p-4"
+          >{{ .Name }}</a
+        >
+      {{ end }}
+    </nav>
+  </div>
+</footer>
