@@ -48,6 +48,10 @@ module.exports = {
           tenne: "#bf7532",
         },
       },
+
+      fontFamily: {
+        alegreya: ["Alegreya", 'serif'],
+      },
     },
   },
   plugins: [

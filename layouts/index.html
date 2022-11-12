@@ -1,9 +1,11 @@
 {{ define "main" }}
   <h1>{{ .Site.Title }}</h1>
-  <div class="space-y-2 lg:space-y-3">
+  {{ .Content }}
+  <!-- <div class="space-y-2 lg:space-y-3">
     {{ range $.Site.Data.pcs }}
-      {{ partial "index/pc" . }}
-    {{ end }}
+    {{ partial "index/pc" . }}
+  {{ end }}
+  
 
-  </div>
+  </div> -->
 {{ end }}

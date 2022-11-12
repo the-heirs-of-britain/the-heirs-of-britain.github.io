@@ -16,11 +16,9 @@
       {{ partial "sidebar/fixed" . }}
       {{ partial "sidebar/overlay" . }}
       <main
-        class="prose prose-stone !max-w-none overflow-y-scroll bg-manuscript-white px-3 pt-3 grid-in-main"
+        class="prose-sm prose prose-stone !max-w-none overflow-y-scroll bg-manuscript-white px-3 pt-3 grid-in-main lg:prose-base"
       >
-        <article class="prose-sm lg:prose-base">
-          {{ block "main" . }}{{ end }}
-        </article>
+        {{ block "main" . }}{{ end }}
       </main>
       {{ partial "footer.html" . }}
     </div>
