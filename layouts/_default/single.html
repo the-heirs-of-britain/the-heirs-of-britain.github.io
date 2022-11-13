@@ -1,8 +1,13 @@
 {{ define "main" }}
   {{ if eq .Type "session" }}
     <h1>{{ .Title }}: {{ .Params.year_played }} AD</h1>
-    <article class="first-of-type:even:prose-p:font-bold">
-      {{ .Content }}
-    </article>
+    <div class="-mb-4 p-0 text-stone-600 lg:-mb-7">
+      <p>
+        <i class="fas fa-calendar mr-1"></i>{{ .Date.Format "02 Jan 2006" }}
+      </p>
+    </div>
+  {{ else }}
+    <h1>{{ .Title }}</h1>
   {{ end }}
+  {{ .Content }}
 {{ end }}

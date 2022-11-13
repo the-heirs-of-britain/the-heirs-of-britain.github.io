@@ -18,7 +18,14 @@
       <main
         class="prose-sm prose prose-stone !max-w-none overflow-y-scroll bg-manuscript-white px-3 pt-3 grid-in-main lg:prose-base"
       >
-        {{ block "main" . }}{{ end }}
+        <article
+          class="{{ if eq .Type "session" }}
+            first:prose-h1:m-0 first:prose-h1:p-0 [nth-of-type(2)]:prose-p:-ml-3
+          {{ end }} p-3"
+        >
+          {{ block "main" . }}
+          {{ end }}
+        </article>
       </main>
       {{ partial "footer.html" . }}
     </div>
