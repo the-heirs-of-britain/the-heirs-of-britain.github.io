@@ -1,4 +1,7 @@
-<header class="z-10 items-center bg-blue-200 text-gray-800 grid-in-header">
+<header
+  class="z-10 items-center bg-blue-200 text-gray-800 grid-in-header"
+  x-data="{mobileOpen: false}"
+>
   <div class="flex h-[52px] items-center justify-between 2xl:h-[62px]">
     {{/* Mobile Sidebar Toggle */}}
     <button
@@ -98,7 +101,7 @@
 
       <button
         class="h-full p-4 hover:bg-gray-400 dark:hover:bg-gray-700 lg:hidden"
-        @click="toggleMobileMenu();"
+        @click="mobileOpen = !mobileOpen"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +118,11 @@
       </button>
     </div>
   </div>
-  <div role="mobile-menu-header" class="hidden h-full text-right lg:hidden">
+  <div
+    role="mobile-menu-header"
+    class="h-full text-right lg:hidden"
+    :class="{'hidden': mobileOpen===false}"
+  >
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
         <div x-data="{open:false}">
