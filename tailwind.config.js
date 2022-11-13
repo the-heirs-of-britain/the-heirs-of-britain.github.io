@@ -10,9 +10,9 @@ module.exports = {
         "footer footer footer",
       ],
       desktop: [
-        "header header header",
+        "sidebar header header",
         "sidebar main main",
-        "footer footer footer",
+        "sidebar footer footer",
       ],
     },
     extend: {
