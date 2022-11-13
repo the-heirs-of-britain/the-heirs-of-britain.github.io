@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html
   lang="{{ .Site.LanguageCode }}"
-  x-data="{darkMode: false}"
+  x-data="{darkMode: false, sidebarOpen: false}"
   x-init="darkMode = JSON.parse(localStorage.getItem('darkMode')); $watch('darkMode', value => JSON.stringify(localStorage.setItem('darkMode', value)))"
   :class="{'dark': darkMode === true}"
 >
@@ -14,9 +14,8 @@
     >
       {{ partial "header.html" . }}
       {{ partial "sidebar/fixed" . }}
-      {{ partial "sidebar/overlay" . }}
       <main
-        class="prose-sm prose prose-stone !max-w-none overflow-y-scroll bg-manuscript-white px-3 pt-3 grid-in-main lg:prose-base"
+        class="prose-sm prose prose-stone !max-w-none overflow-y-scroll bg-manuscript-white  grid-in-main lg:prose-base"
       >
         <article
           class="{{ if eq .Type "session" }}
@@ -29,6 +28,8 @@
       </main>
       {{ partial "footer.html" . }}
     </div>
+
+    {{ partial "sidebar/overlay" . }}
     {{ partial "search/overlay" . }}
   </body>
 </html>

@@ -1,4 +1,3 @@
-{{ $mainJs := resources.Get "js/main.js" }}
 {{ $fuseJs := resources.Get "js/fuse.js" }}
 <head>
   <meta charset="UTF-8" />
@@ -63,5 +62,4 @@
       document.documentElement.classList.remove("dark");
     }
   </script>
-  <script src="{{ $mainJs.Permalink }}"></script>
 </head>
