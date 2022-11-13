@@ -7,7 +7,11 @@
 
         <li class="clear-both">
           <a href="{{ .RelPermalink }}">
-            {{ .Title }}
+            {{ if eq .Type "session" }}
+              {{ .Title }}: {{ .Params.year_played }} AD
+            {{ else }}
+              {{ .Title }}
+            {{ end }}
           </a>
           <span class="float-right">
             {{ .Date.Format "02 Jan." }}
