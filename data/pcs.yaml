@@ -12,23 +12,9 @@
     latin: "Male Parta Male Dilabuntur"
     english: "What has been wrongly gained is wrongly lost."
 
-- name: "Vandagild the Aquitainian"
-  father: "Vandevig of Ganis"
-  img:
-    path: "/img/vandagild_coa.png"
-    alt: "Vandagild's heraldry."
-  played_by: "C1"
-  description: |
-    A tall man of great constitution, with gallic features and a scarred left brow; a bear claw on a youthful hunt. His sense of Justice drives him, and he is famously Vengeful but Merciful. His hatred of Saxons and Vandals, for their marauding ways, are well-known. He is renowned as a hunter and horseman. His powerful oratory makes him a popular speaker and storyteller. From his neck hangs a Roman medallion, awarded to his grandfather, Sir Vandius, by the Holy Emperor Avitus in 455.
-    Like many Knights, he is famed for his Valor and is a skilled young warrior.
-    His father earned his lands in Salisbury as a mercenary, joining the now High King Aurelius in his March from Aquitaine to retake his rightful throne of Logres and Britain. For his valorous service, Vandevig was granted the manor of Winterborne Gunner. Vandagild will inherit these lands.
-  words:
-    latin: "Iustitia Virtus Misericordia"
-    english: "Justice, Valor, and Mercy."
-
 - name: "Iwan the Cymrian"
   father: "Rufus of Salisbury"
-  played_by: "Trent"
+  played_by: "C2"
   img:
     path: "/img/iwan_coa.png"
     alt: "Iwan's heraldry."
@@ -39,3 +25,17 @@
   words:
     latin: "Ostendo non ostento"
     english: "I show, not boast."
+
+- name: "Vandagild the Aquitainian"
+  father: "Vandevig of Ganis"
+  img:
+    path: "/img/vandagild_coa.png"
+    alt: "Vandagild's heraldry."
+  played_by: "Trent"
+  description: |
+    A tall man of great constitution, with gallic features and a scarred left brow; a bear claw on a youthful hunt. His sense of Justice drives him, and he is famously Vengeful but Merciful. His hatred of Saxons and Vandals, for their marauding ways, are well-known. He is renowned as a hunter and horseman. His powerful oratory makes him a popular speaker and storyteller. From his neck hangs a Roman medallion, awarded to his grandfather, Sir Vandius, by the Holy Emperor Avitus in 455.
+    Like many Knights, he is famed for his Valor and is a skilled young warrior.
+    His father earned his lands in Salisbury as a mercenary, joining the now High King Aurelius in his March from Aquitaine to retake his rightful throne of Logres and Britain. For his valorous service, Vandevig was granted the manor of Winterborne Gunner. Vandagild will inherit these lands.
+  words:
+    latin: "Iustitia Virtus Misericordia"
+    english: "Justice, Valor, and Mercy."
