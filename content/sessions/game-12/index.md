@@ -1,8 +1,8 @@
 ---
 title: "Game 12"
-date: 2022-11-17T17:09:09-05:00
+date: 2022-08-06
 draft: true
 year_played:
-weight: 
+weight:
 type: session
 ---

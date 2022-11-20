@@ -1,8 +1,8 @@
 ---
 title: "Game 10"
-date: 2022-11-17T17:09:09-05:00
+date: 2022-07-07
 draft: true
 year_played:
-weight: 
+weight:
 type: session
 ---

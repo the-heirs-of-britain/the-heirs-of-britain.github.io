@@ -10,4 +10,7 @@
     <h1>{{ .Title }}</h1>
   {{ end }}
   {{ .Content }}
+  {{ if eq .Type "session" }}
+    {{ partial "comments" . }}
+  {{ end }}
 {{ end }}
