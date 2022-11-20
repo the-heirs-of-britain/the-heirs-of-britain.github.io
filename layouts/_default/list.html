@@ -3,7 +3,7 @@
   <ul>
     {{ range .Data.Pages.GroupByDate "2006" }}
       <h2>{{ .Key }}</h2>
-      {{ range .Pages }}
+      {{ range .Pages.ByDate }}
 
         <li class="clear-both">
           <a href="{{ .RelPermalink }}">
