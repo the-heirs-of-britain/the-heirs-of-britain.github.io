@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+.giscus {
+  background-color: #090b0d;
+  border-radius: theme("borderRadius.DEFAULT");
+}
+
+.gsc-left-header {
+  padding-left: theme("padding.4");
+}
