@@ -52,15 +52,10 @@ module.exports = {
       fontFamily: {
         alegreya: ["Alegreya", "serif"],
       },
-
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
-            "article > p": {
-              "&:first-of-type:first-letter": {
-                "@apply text-6xl lg:text-7xl float-left pr-1 -ml-[0.15rem]": "",
-              },
-            },
+            maxWidth: "none",
           },
         },
       }),

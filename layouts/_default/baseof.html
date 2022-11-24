@@ -14,14 +14,8 @@
     >
       {{ partial "header.html" . }}
       {{ partial "sidebar/fixed" . }}
-      <main
-        class="prose-sm prose prose-stone !max-w-none overflow-y-scroll bg-manuscript-white  grid-in-main lg:prose-base"
-      >
-        <article
-          class="{{ if eq .Type "session" }}
-            first:prose-h1:m-0 first:prose-h1:p-0 [nth-of-type(2)]:prose-p:-ml-3
-          {{ end }} p-3"
-        >
+      <main class="w-full overflow-y-scroll bg-manuscript-white grid-in-main">
+        <article class="prose-sm prose prose-stone p-3 lg:prose-base">
           {{ block "main" . }}
           {{ end }}
         </article>
