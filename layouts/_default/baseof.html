@@ -14,11 +14,13 @@
     >
       {{ partial "header.html" . }}
       {{ partial "sidebar/fixed" . }}
-      <main class="w-full overflow-y-scroll bg-manuscript-white grid-in-main">
+      <main
+        class="w-full overflow-y-scroll bg-manuscript-white grid-in-main dark:bg-stone-900"
+      >
         <article
           class="{{ if eq .Type "session" }}
             prose-dropcaps
-          {{ end }} prose-sm prose prose-stone p-3 lg:prose-base"
+          {{ end }} prose-sm prose prose-stone p-3 dark:prose-invert lg:prose-base"
         >
           {{ block "main" . }}
           {{ end }}
