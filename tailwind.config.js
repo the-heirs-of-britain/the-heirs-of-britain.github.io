@@ -58,6 +58,11 @@ module.exports = {
             maxWidth: "none",
           },
         },
+        "dropcaps > p:first-of-type::first-letter": {
+          css: {
+            "@apply text-6xl lg:text-7xl float-left pr-1 -ml-[0.15rem]": "",
+          },
+        },
       }),
     },
   },
