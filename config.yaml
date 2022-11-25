@@ -21,12 +21,15 @@ menus:
     - name: Sessions
       url: "/sessions"
       weight: 2
+      identifier: sessions ## used for active links in navbar. it MUST match anything after the "/".
+
 build:
   writeStats: true
 
 permalinks:
   sessions: "/:year/:month/:day/:slug"
-
+#-------------------------------------
+## DO NOT MESS WITH THIS! USED FOR SEARCH AND RSS.
 outputs:
   home:
     - html
@@ -34,3 +37,8 @@ outputs:
     - json
   page:
     - html
+
+outputFormats:
+  RSS:
+    baseName: feed
+    mediatype: "application/rss+xml"
