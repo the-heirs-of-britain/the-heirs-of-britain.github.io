@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ if eq .Type "session" }}
     <h1>{{ .Title }}: {{ .Params.year_played }} AD</h1>
-    <div class="-mb-4 p-0 text-stone-600 lg:-mb-7">
+    <div class=" text-stone-600 dark:text-stone-400/60">
       <p>
         <i class="fas fa-calendar mr-1"></i>{{ .Date.Format "02 Jan 2006" }}
       </p>
