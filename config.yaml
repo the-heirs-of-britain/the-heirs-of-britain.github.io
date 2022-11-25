@@ -8,10 +8,14 @@ markup: ## needed for html in your markdown
       unsafe: true
 
 params:
-  description: "Lorem ipsum dolor sit amet."
+  tagline: "Lorem ipsum dolor sit amet."
+  sidebarImg: "/img/Excalibur.png"
+  meta: ## metadata in the head of the document. each option in here corresponds to the meta tag (eg the description matches to the meta decription tag in the head, etc.)
+    description: "The chronicles of the Heirs of Britain. It's a campaign blog."
+    author: "Trent B."
   socials:
     - icon: "fas fa-rss"
-      url: "#"
+      url: "/sessions/feed.xml"
 
 menus:
   main:

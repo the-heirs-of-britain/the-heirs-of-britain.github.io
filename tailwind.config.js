@@ -35,7 +35,9 @@ module.exports = {
           silver: "#fafafa",
           gold: "#ffe066",
           red: "#d7374a",
-          blue: "#377cd7",
+          blue: {
+            DEFAULT: "#377cd7",
+          },
           black: "#333333",
           purple: "#522d5b",
           green: "#26c061",

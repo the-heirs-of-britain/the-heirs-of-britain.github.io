@@ -1,8 +1,6 @@
 {{ $fuseJs := resources.Get "js/fuse.js" }}
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="The personal website of Jacob Hilker." />
   <title>
     {{ if .IsHome }}
       Home |
@@ -11,7 +9,13 @@
     {{ end }}
     {{ .Site.Title }}
   </title>
+  <!-- Meta Tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{ with .Site.Params.meta }}
 
+    <meta name="author" content="{{ .author }}" />
+    <meta name="description" content="{{ .description }}" />
+  {{ end }}
   <!-- CSS -->
   {{ $css := resources.Get "css/tw.css" | postCSS }}
   {{ if hugo.IsProduction }}
