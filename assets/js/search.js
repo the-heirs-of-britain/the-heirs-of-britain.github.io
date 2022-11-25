@@ -248,7 +248,7 @@ if (typeof variable !== "undefined") {
           // only show first 5 results
           search_items =
             search_items +
-            `<div class="px-2 mt-1 hover:border-l-[3px] hover:border-heraldic-blue-bright focus:outline-none focus:ring-2 focus:ring-heraldic-blue-bright relative hover:bg-black/20">
+            `<div class="px-2 mt-1 hover:border-l-[3px] hover:border-heraldic-blue focus:outline-none focus:ring-2 focus:ring-heraldic-blue relative hover:bg-black/20">
                 <a href="${results[item].item.permalink}" class="absolute w-full h-full top-0 "><span></span></a>
                 <h2>${results[item].item.title}: ${results[item].item.yearPlayed} AD</h2>
                 <p class="mt-1 mb-1">

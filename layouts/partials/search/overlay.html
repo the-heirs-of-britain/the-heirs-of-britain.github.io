@@ -5,7 +5,7 @@
 <!-- layouts/partials/search.html -->
 <div
   role="search-overlay"
-  class="dark fixed inset-0 -z-10 m-auto hidden h-full w-full rounded-sm bg-black/80 text-white opacity-0 shadow-xl backdrop-blur transition duration-150 ease-in-out lg:block"
+  class="fixed inset-0 -z-10 m-auto hidden h-full w-full rounded-sm bg-black/80 text-white opacity-0 shadow-xl backdrop-blur transition duration-150 ease-in-out lg:block"
 >
   <form
     id="search-form"
@@ -17,7 +17,7 @@
     <div role="searchbar-container" class="flex justify-center">
       <input
         id="search-input"
-        class="mx-auto mt-2 w-[98%] border-x-0 border-t-0 border-b-2 border-stone-200/30 bg-transparent p-1 placeholder:p-2 placeholder:text-stone-400 focus:border-heraldic-blue-bright focus:outline-none focus:ring-0"
+        class="mx-auto mt-2 w-[98%] border-x-0 border-t-0 border-b-2 border-stone-200/30 bg-transparent p-1 placeholder:p-2 placeholder:text-stone-400 focus:border-heraldic-blue focus:outline-none focus:ring-0"
         name="q"
         tabindex="0"
         placeholder="&#x1f50e;&nbsp;Search Site"
@@ -25,7 +25,7 @@
         {{ with site.BaseURL }}value=" site:{{ . }}"{{ end }}
         placeholder="{{ i18n "search" }}"
       />
-      <input id="search-submit" class="icon" type="submit" value="⌕" />
+      <input id="search-submit" class="icon hidden" type="submit" value="⌕" />
     </div>
     <div
       id="search-results"
