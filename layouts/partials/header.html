@@ -5,7 +5,7 @@
   <div class="flex h-[52px] items-center justify-between 2xl:h-[62px]">
     {{/* Mobile Sidebar Toggle */}}
     <button
-      class="h-full justify-start p-3 hover:bg-gray-400 dark:hover:bg-gray-700 lg:hidden 2xl:p-4"
+      class="h-full justify-start p-3 hover:backdrop-brightness-75 dark:hover:backdrop-brightness-125 lg:hidden 2xl:p-4"
       x-on:click="sidebarOpen = !sidebarOpen"
     >
       <svg
@@ -30,8 +30,8 @@
         {{ if .HasChildren }}
           <div
             class="{{ if $active }}
-              border-b-2 border-blue-600 dark:border-blue-400
-            {{ end }} relative inline-block h-full items-center p-3 hover:bg-gray-400 dark:hover:bg-blue-600 2xl:p-4"
+              border-b-2 border-heraldic-blue
+            {{ end }} relative inline-block h-full items-center p-3  2xl:p-4"
             x-data="{ open: false }"
           >
             <a @click="open = !open" class="flex items-center">
@@ -74,8 +74,8 @@
           <a
             href="{{ .URL }}"
             class="{{ if $active }}
-              border-b-2 border-blue-600 dark:border-blue-400
-            {{ end }} block h-full p-3 transition duration-100 hover:bg-gray-400 dark:hover:bg-blue-600  2xl:p-4"
+              border-b-2 border-heraldic-blue
+            {{ end }} block h-full p-3 transition duration-100 hover:backdrop-brightness-75 dark:hover:backdrop-brightness-125  2xl:p-4"
             >{{ .Name }}</a
           >
         {{ end }}
@@ -84,7 +84,7 @@
 
     <div class="my-auto flex h-full items-center space-x-4">
       <button
-        class="h-full p-4 hover:bg-gray-400 dark:hover:bg-gray-700"
+        class="h-full p-4 hover:backdrop-brightness-75 dark:hover:backdrop-brightness-125"
         @click="darkMode = !darkMode"
       >
         <svg
@@ -100,7 +100,7 @@
       </button>
 
       <button
-        class="h-full p-4 hover:bg-gray-400 dark:hover:bg-gray-700 lg:hidden"
+        class="h-full p-4 hover:backdrop-brightness-75 dark:hover:backdrop-brightness-125 lg:hidden"
         @click="mobileOpen = !mobileOpen"
       >
         <svg
