@@ -1,11 +1,13 @@
 <aside
   role="mobile-sidebar"
-  class="sidebar-overlay fixed inset-0 z-10 flex w-72 transform flex-col items-center bg-manuscript-tan shadow-lg duration-150 lg:invisible"
+  class="fixed inset-0 z-10 flex w-72 transform flex-col items-center bg-manuscript-tan shadow-lg duration-150 dark:bg-stone-800 lg:invisible"
   :class="{'-translate-x-full': sidebarOpen === false}"
 >
   <!-- Sidebar Toggle and Title -->
   <div class="flex w-full flex-row items-center">
-    <a href="{{ .Site.BaseURL }}" class="p-2 font-semibold uppercase"
+    <a
+      href="{{ .Site.BaseURL }}"
+      class="p-2 font-semibold uppercase dark:text-stone-200"
       >{{ .Site.Title }}</a
     >
     <button
@@ -28,35 +30,32 @@
   </div>
   <div class="mt-3 h-48 w-48">
     <img
-      src="https://via.placeholder.com/250"
-      alt="user profile picture"
+      src="{{ .Site.Params.sidebar.img | relURL }}"
+      alt="{{ .Site.Params.sidebar.alt }}"
       class="h-full min-w-full rounded-full object-cover"
     />
   </div>
   <!-- Description -->
-  <p class="mx-auto mt-2 text-center text-sm text-stone-500">
-    {{ .Site.Params.description }}
+  <p
+    class="mx-auto mt-2 text-center text-sm text-stone-700 dark:text-stone-400"
+  >
+    {{ .Site.Params.tagline }}
   </p>
 
   <!-- Social Icons -->
   <div class="mt-2 flex space-x-2.5 p-3 text-xl">
-    <a href="#" class="transition-colors duration-75 hover:text-blue-400">
-      <i class="fab fa-reddit"></i>
-    </a>
-    <a href="#" class="transition-colors duration-75 hover:text-blue-400">
-      <i class="fab fa-github"></i>
-    </a>
-    <a href="#" class="transition-colors duration-75 hover:text-blue-400">
-      <i class="fab fa-twitter"></i>
-    </a>
-    <a href="#" class="transition-colors duration-75 hover:text-blue-400">
-      <i class="fab fa-instagram"></i>
-    </a>
-    <a href="#" class="transition-colors duration-75 hover:text-blue-400">
-      <i class="fas fa-rss"></i>
-    </a>
+    {{ range .Site.Params.socials }}
+      <a
+        href="{{ .url }}"
+        class="transition-colors duration-75 hover:text-heraldic-blue dark:text-stone-300/60 dark:hover:text-heraldic-blue"
+      >
+        <i class="{{ .icon }}"></i>
+      </a>
+    {{ end }}
   </div>
-  <p class="absolute bottom-0 mb-4 text-sm text-stone-500 ">
+  <p
+    class="absolute bottom-0 mb-4 text-sm text-stone-500 dark:text-stone-400/60"
+  >
     &copy;2021-2022 Trent B
   </p>
 </aside>

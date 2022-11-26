@@ -8,8 +8,10 @@ markup: ## needed for html in your markdown
       unsafe: true
 
 params:
-  tagline: "Lorem ipsum dolor sit amet."
-  sidebarImg: "/img/Excalibur.png"
+  tagline: "The chronicles of the Heirs of Britain." ## site tagline, goes under the image in the sidebar.
+  sidebar:
+    img: "/img/Excalibur.png" ## path to image.
+    alt: "The sword Excalibur held aloft in the heir." ## Alt text for image
   meta: ## metadata in the head of the document. each option in here corresponds to the meta tag (eg the description matches to the meta decription tag in the head, etc.)
     description: "The chronicles of the Heirs of Britain. It's a campaign blog."
     author: "Trent B."
