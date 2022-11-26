@@ -24,10 +24,21 @@ menus:
     - name: Home
       url: "/"
       weight: 1
+
     - name: Sessions
-      url: "/sessions"
+      url: "/sessions/"
       weight: 2
       identifier: sessions ## used for active links in navbar. it MUST match anything after the "/".
+
+      ## use this for menus for footer
+  #footer:
+  # - name: All Sessions
+  #   url: "/sessions/"
+  #   parent: sessions ## used for active links in navbar. it MUST match anything after the "/".
+
+  # - name: RSS Feed
+  #   url: "/sessions/feed.xml"
+  #   parent: sessions ## used for active links in navbar. it MUST match anything after the "/".
 
 build:
   writeStats: true
