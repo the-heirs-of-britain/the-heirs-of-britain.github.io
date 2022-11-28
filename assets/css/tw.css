@@ -116,3 +116,7 @@
 .gsc-left-header {
   padding-left: theme("padding.4");
 }
+
+.footnotes {
+  @apply text-sm;
+}

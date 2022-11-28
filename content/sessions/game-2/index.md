@@ -11,7 +11,7 @@ type: session
 
 Roderick issues orders: His finest knights are to ride east to Wynchbank to assess the fitness of that Baron’s Daughter as a wife for the good Earl. Each squires knight is to be among the modest cohort, and thus each squire will attend. Before we leave, Vandagild gifts his two companions with a finely crafted Bear Claw medallion each, paid for with the animal’s pelt, as a token of our camaraderie.
 
-On the road:
+### On The Road
 
 Elvorix helps peasants with a broken wagon, not straying so far as to render dishonorable manual labor, and yet building his reputation as a fine man.
 
@@ -19,29 +19,29 @@ Vandagild talks battle with Iwan. Elvorix, overhearing, claims written treatises
 
 Iwan spends time practicing with his blade, learning from the senior knights and showing his own skill. He duels Elvorix with wooden swords; Iwan gets the better, though brags little for his success!
 
-At dinner, Wynchbank Manor
+### At dinner, Wynchbank Manor
 
 The lady (of 13 summers, not yet marriageable, but these things take time) is slightly late, and, to Vandagild’s romantic estimation, dressed less fancifully than our Lord Roderick deserves. Vandagild suspects this is a deliberate show of disrespect or disinterest. While feasting, Iwan attempts flirtation with a serving woman, but nets no gain. His dashing looks impress, but he is squired to Sir Myles, renowned as perhaps the most handsome man in court; competition is fierce. Vandagild, drawing from recent experience, humbly warns him of the risks of imprudence at feasts. Iwan appropriately admonishes Vandagild for his hypocrisy.
 
-The next morning, we are awoken before dawn. News comes with the shock of awakitude: The Marshall Sir Elad, our mentor from Vagon, is coming from Sarum\* !? He brings the Squire Madoc with him, who looks particularly proud today. It is important that we are ready to travel with the good Marshall. The reason is kept in shadows.
+The next morning, we are awoken before dawn. News comes with the shock of awakitude: The Marshall Sir Elad, our mentor from Vagon, is coming from Sarum[^1]!? He brings the Squire Madoc with him, who looks particularly proud today. It is important that we are ready to travel with the good Marshall. The reason is kept in shadows.
 
 An interjection: I have been remiss. Madoc has squired with us for our duration in the rank. He was supposed to ride with us to Imber, but was drawn away with no warning and thus omitted from the tale. He is strong and resilient, and famously Energetic, Proud and Temperate. Madoc and Vandagild have shared joyous moments, and both take virtue from vengeance. He is excellent at Lance, and hates Saxons. He is of unknown origin; we presume the favourite of some Widower and thus supported in Knighthood, or perhaps the bastard of some Baron or officer. His appearance at Wynchbank with Sir Elad surprises.
 
 On his arrival, Sir Elad brings news: We are to travel to Londinium! We will be as part of Earl Roderick's entourage, attending the High King's Easter Feast! A glorious occasion and a treat for inglorious squires! We trek, still uncertain for Madoc.
 
-Londinium!
+### Londinium!
 
 London's walls are dilapidated. Elvorix notes the superiority of Roman stonemasonry and the shame of the current state of these walls. The Squires all hate it here, for different reasons; It is dense, dirty, bereft of forest or game, and awash with politics. And it stinks. We enter the west gate, the wretched pall of skinworks assails every nostril for a mile. As we travel, Vandagild asks the dashing Sir Myles for help buying jewellery for Lady Catrin from the fine cratfsfolk of London; Myles eagerly acquiesces.
 
-We follow Sir Elad to meet the Earl Roderick. Sir Godifer^ and Earl Roderick embrace, affirming their friendship. Sir Roderick then greets Squire Madoc specifically, and before other Knights; a truly unusual honour! A brief conversation, which the deft Iwan overhears: Roderick is excited about an announcement regarding Madoc, though the details are not explained. Roderick then greets the three protagonistic squires, firmly shaking our hands: We have shown quality and reached our twenty first year. As such we are to be Knighted! Glorious!
+We follow Sir Elad to meet the Earl Roderick. Sir Godifer[^2] and Earl Roderick embrace, affirming their friendship. Sir Roderick then greets Squire Madoc specifically, and before other Knights; a truly unusual honour! A brief conversation, which the deft Iwan overhears: Roderick is excited about an announcement regarding Madoc, though the details are not explained. Roderick then greets the three protagonistic squires, firmly shaking our hands: We have shown quality and reached our twenty first year. As such we are to be Knighted! Glorious!
 
 As we converse, Roderick asks Sir Godifer about Wynchbank: Godifer explains that the Baron apparently has his estate under excellent care, and he's a diligent man. His daughter is respectable, but Godifer speaks with some trepidation about her lack of appropriate opulence. When asked, Vandagild echoes and amplifies Godifer's comments of her outfit, and adds a note of her lateness. Roderick frowns.
 
 That evening: Vandagild romances his lady and offers her his gift: A delicate necklace wrought from fine Silver! She is grateful and speaks kindly. As we carouse, Elvorix strides among the squires, admonishing them for being intemperate with drink. This is an unpopular act. Iwan leaves the party, continuing to hate London while wandering the miserable streets and regretting the stench.
 
-As the Knighthood tradition dictates, we spend the evening in churches, praying to God and resisting Sloth. Each man achieves his goal and succumbs not to sleep in the house of Our Lord, yet we do not share the moment: Elvorix is Roman Christian, Iwan British Christian and Vandagild an Arian Christian#. The latter sits with few others in a smaller chapel and yet appears possessed in his dedication to wakefulness. Unbeknownst to him, an Arian Bishop observes his fervour, whispering prayers and thanks to God for this omen. Auspicious!
+As the Knighthood tradition dictates, we spend the evening in churches, praying to God and resisting Sloth. Each man achieves his goal and succumbs not to sleep in the house of Our Lord, yet we do not share the moment: Elvorix is Roman Christian, Iwan British Christian and Vandagild an Arian Christian[^3]. The latter sits with few others in a smaller chapel and yet appears possessed in his dedication to wakefulness. Unbeknownst to him, an Arian Bishop observes his fervour, whispering prayers and thanks to God for this omen. Auspicious!
 
-We are Knighted before the High King!
+### We are Knighted before the High King!
 
 The next morning we sit in the High King’s court, a truly magnificent ceremony, attended by the greatest men and women of Logres and Britain. Prince Uther, brother of the High King Aurelius Pendragon, sits at the latter’s right hand. The pageantry and ceremony overwhelm!
 
@@ -51,7 +51,7 @@ At dinner we are seated appropriately as new Knights! Sir Elvorix proudly tells 
 
 Iwan spends his time quietly with Sir Myles, enjoying pleasant conversation and flattering attention, developing a strong love for his mentor.
 
-The High King's Easter Feast!
+### The High King's Easter Feast!
 
 At the Feast Proper, the new Knights are seated with Roderick's entourage, near the salt. That evening:
 
@@ -66,3 +66,7 @@ Vandagild's blessing by the Bishop and subsequent speeches are remembered fondly
 We retire, each according to their place. The rooms are well furnished, and rest is good.
 
 Alas, once more our morning rise is abrupt: The Monstrous, Treacherous Saxons are attacking Salisbury! All Knights are to take arms and muster at once!..
+
+[^1]: Sarum Rock, residence of the court Earl Roderick of Salisbury.
+[^2]: Sir Godifer: Lord of Sir Elvorix. Known for his political savvy and social acumen, and who led our entourage to Wynchbank. He is a close friend of the Earl.
+[^3]: No association with the evil ideology of the 20th century.
