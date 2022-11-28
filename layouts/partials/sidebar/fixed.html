@@ -35,10 +35,13 @@
       </a>
     {{ end }}
   </div>
-
   <p
-    class="absolute bottom-0 mb-4 text-sm text-stone-500 dark:text-stone-300/60"
+    class="absolute bottom-0 mb-4 text-sm text-stone-500 before:mx-0.5 before:align-text-top before:content-['\00a9']"
   >
-    &copy;2021-2022 Trent B
+    {{ if gt (now.Format "2006") "2022" }}
+      2022&mdash;{{ now.Format "2006" }}
+    {{ else }}
+      {{ now.Format "2006" }} Trent B
+    {{ end }}
   </p>
 </aside>

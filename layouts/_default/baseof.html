@@ -17,7 +17,12 @@
       <main
         class="overflow-y-scroll bg-manuscript-white grid-in-main dark:bg-stone-900"
       >
-        <article class="prose-sm prose prose-manuscript p-3 lg:prose-base">
+        <article
+          class="{{ if eq .Type "session" }}
+            prose-dropcaps
+          {{ end }} prose-sm prose prose-manuscript p-3
+        lg:prose-base"
+        >
           {{ block "main" . }}
           {{ end }}
         </article>
