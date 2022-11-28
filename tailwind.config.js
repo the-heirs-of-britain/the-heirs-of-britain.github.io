@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["./layouts/**/*.html", "assets/js/*.js", "./content/**/*.md"],
   darkMode: "class",
@@ -50,12 +51,13 @@ module.exports = {
       },
 
       fontFamily: {
-        alegreya: ["Alegreya", "serif"],
+        serif: ["Merriweather", defaultTheme.fontFamily.serif],
       },
       typography: ({ theme }) => ({
-        DEFAULT: {
+        manuscript: {
           css: {
-            maxWidth: "none",
+            "@apply font-serif max-w-none prose-stone dark:prose-invert prose-a:text-heraldic-blue-dark hover:prose-a:brightness-75 dark:prose-invert dark:prose-a:text-heraldic-blue-bright dark:hover:prose-a:brightness-125":
+              "",
           },
         },
         "dropcaps > p:first-of-type::first-letter": {
