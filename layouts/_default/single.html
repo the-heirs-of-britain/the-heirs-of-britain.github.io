@@ -6,6 +6,14 @@
         <i class="fas fa-calendar mr-1"></i>{{ .Date.Format "02 Jan 2006" }}
       </p>
     </div>
+    <details class="group">
+      <summary
+        class="list-none underline after:inline-block after:align-baseline after:transition after:content-['‣'] group-open:after:rotate-90"
+      >
+        <strong>Table of Contents</strong>
+      </summary>
+      {{ .TableOfContents }}
+    </details>
   {{ else }}
     <h1>{{ .Title }}</h1>
   {{ end }}
