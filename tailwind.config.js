@@ -56,7 +56,7 @@ module.exports = {
       typography: ({ theme }) => ({
         manuscript: {
           css: {
-            "@apply font-serif max-w-none prose-stone dark:prose-invert prose-a:text-heraldic-blue-dark hover:prose-a:brightness-75 dark:prose-invert dark:prose-a:text-heraldic-blue-bright dark:hover:prose-a:brightness-125":
+            "@apply font-serif lg:max-w-none prose-stone dark:prose-invert prose-a:text-heraldic-blue-dark hover:prose-a:brightness-75 dark:prose-invert dark:prose-a:text-heraldic-blue-bright dark:hover:prose-a:brightness-125":
               "",
           },
         },

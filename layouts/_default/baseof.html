@@ -20,8 +20,12 @@
         <article
           class="{{ if eq .Type "session" }}
             prose-dropcaps
-          {{ end }} prose-sm prose prose-manuscript p-3
-        lg:prose-base"
+          {{ end }} {{ if .IsHome }}
+            mx-auto
+          {{ end }} prose-sm prose prose-manuscript
+        p-3
+        lg:prose-base
+        "
         >
           {{ block "main" . }}
           {{ end }}
