@@ -12,9 +12,10 @@
         {{ . }}
       </header>
     {{ end }}
+
     <figure>
       <img
-        src="https://images.unsplash.com/photo-1632951634308-d7889939c125"
+        src="{{with .Get "img"}}{{.}}{{end}}"
         alt="{{ with .Get "caption" }}{{ . }}{{ end }}"
         class="my-0 h-60 w-full object-contain"
       />
