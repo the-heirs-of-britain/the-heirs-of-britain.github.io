@@ -1,5 +1,5 @@
 ---
-title: "Game One"
+title: "Game 1"
 date: 2022-04-29
 draft: true
 year_played: 479
